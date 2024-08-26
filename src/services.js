@@ -92,6 +92,8 @@ document.getElementById('character-form').addEventListener('submit', async (even
         race: formData.get('race')
     };
     await createCharacter(characterData);
+    allForm.classList.add('forms-hidden');
+    allForm.classList.remove('forms');
 });
 
 // FORMULARIO EDITAR PERSONAJE
