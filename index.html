@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Seven Deadly Sins</title>
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Personajes de: The Seven Deadly Sins</h1>
+    </header>
+    <section class="table-section">
+      <div class="table-box">
+          <table>
+              <thead>
+                  <tr>
+                      <th><p>#</p></th>
+                      <th><p>Nombre</p></th>
+                      <th><p>Género</p></th>
+                      <th><p>Raza</p></th>
+                      <th><button class="add-btn" id="add-btn">+</button></th>
+                  </tr>
+              </thead>
+              <tbody id="data">
+              </tbody>
+          </table>
+        </div>
+          <form id="character-form" class="forms-hidden">
+            <h2>Añadir Personaje<button class="closeAdd-btn" id="closeAdd-btn">X</button></h2>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+              <br>
+              <label for="gender">Género:</label>
+              <input type="text" id="gender" name="gender" required>
+              <br>
+              <label for="race">Raza:</label>
+              <input type="text" id="race" name="race" required>
+              <br>
+              <button class="submit-btn" type="submit">Añadir</button>
+          </form>
+          <form id="character-edit" class="forms-hidden">
+            <h2>Editar Personaje<button class="closeAdd-btn" id="closeEdit-btn">X</button></h2>
+            <label for="name">Nombre:</label>
+            <input type="text" id="edit-name" name="edit-name" required>
+            <br>
+            <label for="gender">Género:</label>
+            <input type="text" id="edit-gender" name="edit-gender" required>
+            <br>
+            <label for="race">Raza:</label>
+            <input type="text" id="edit-race" name="edit-race" required>
+            <br>
+            <button class="submit-btn" type="submit">Editar</button>
+          </form>
+    </section>
+    <footer>
+      <a href="https://nanatsu-no-taizai.fandom.com/es/wiki/Wiki_Nanatsu_no_Taizai"><h2>Nanatsu no taizai wiki</h2></a>
+    </footer>
+    <script src="src/services.js"></script>
+  </body>
+</html>

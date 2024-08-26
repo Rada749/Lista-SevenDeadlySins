@@ -1,0 +1,28 @@
+{
+  "characters": [
+    {
+      "name": "Meliodas",
+      "gender": "Masculino",
+      "race": "Demonio",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Escanor",
+      "gender": "Masculino",
+      "race": "Humano"
+    },
+    {
+      "id": "3",
+      "name": "King",
+      "gender": "Masculino",
+      "race": "Hada"
+    },
+    {
+      "id": "4",
+      "name": "Diane",
+      "gender": "Femenino",
+      "race": "Gigante"
+    }
+  ]
+}
