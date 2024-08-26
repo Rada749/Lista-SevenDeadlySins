@@ -38,7 +38,7 @@ Este proyecto es una aplicación web sencilla para gestionar los personajes de l
 4. **Inicia el servidor JSON**:
 
     ```bash
-    json-server --watch db.json --port 3000
+    json-server server/db.json --port 3000
     ```
 
     Esto lanzará un servidor local en `http://localhost:3000` y usará el archivo `db.json` como base de datos.
