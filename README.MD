@@ -20,7 +20,7 @@ Este proyecto es una aplicación web sencilla para gestionar los personajes de l
 1. **Clona el repositorio**:
 
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/Rada749/Lista-SevenDeadlySins.git
     ```
 
 2. **Instala `json-server`** (si no lo tienes instalado):
