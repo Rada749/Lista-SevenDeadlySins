@@ -20,7 +20,7 @@ async function deleteCharacter(id) {
 // CREATE - method POST - URL: http://localhost:3000/characters
 async function createCharacter(characterData) {
     const characters = await getCharacters();
-    const nextId = characters.length > 0 ? parseInt(characters[characters.length - 1].id) + 1 : 1;
+    const nextId = characters.length >= 0 ? parseInt(characters[characters.length - 1].id) + 1 : 1;
     characterData.id = nextId.toString();
     await fetch("http://localhost:3000/characters", {
         method: "POST",
@@ -92,6 +92,7 @@ document.getElementById('character-form').addEventListener('submit', async (even
         race: formData.get('race')
     };
     await createCharacter(characterData);
+    event.target.reset();
     allForm.classList.add('forms-hidden');
     allForm.classList.remove('forms');
 });

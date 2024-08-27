@@ -1,10 +1,10 @@
 {
   "characters": [
     {
+      "id": "1",
       "name": "Meliodas",
       "gender": "Masculino",
-      "race": "Demonio",
-      "id": "1"
+      "race": "Demonio"
     },
     {
       "id": "2",
