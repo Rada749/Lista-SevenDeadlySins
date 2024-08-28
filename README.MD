@@ -32,13 +32,13 @@ Este proyecto es una aplicación web sencilla para gestionar los personajes de l
 3. **Navega a la carpeta del proyecto**:
 
     ```bash
-    cd tu-repositorio
+    cd lista-sevendeadlysins
     ```
 
 4. **Inicia el servidor JSON**:
 
     ```bash
-    json-server server/db.json --port 3000
+    npm run api
     ```
 
     Esto lanzará un servidor local en `http://localhost:3000` y usará el archivo `db.json` como base de datos.
