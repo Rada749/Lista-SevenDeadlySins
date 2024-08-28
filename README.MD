@@ -9,6 +9,7 @@ Este proyecto es una aplicación web sencilla para gestionar los personajes de l
 - **Edición**: Posibilidad de editar los datos de personajes existentes.
 - **Eliminación**: Los personajes pueden ser eliminados de la lista.
 - **Interfaz dinámica**: La tabla se actualiza automáticamente después de cada operación (crear, editar, eliminar).
+- **Enlace a wiki de la serie**: Esta enlazada la wiki de la serie en cuestión en el footer de la web.
 
 ## **Requisitos**
 
